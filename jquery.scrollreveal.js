@@ -51,7 +51,7 @@
 				} else if ($(el).hasClass('entirely-shown')) {
 					$(el).removeClass('entirely-shown')
 				}
-			})
+			}).trigger('scroll.scrollreveal')
 		}
 
 		init()
